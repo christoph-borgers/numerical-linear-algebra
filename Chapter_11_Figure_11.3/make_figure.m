@@ -1,4 +1,4 @@
-clear; clf; 
+clear; clf; set(0,'DefaultTextInterpreter','latex');
 
 m=7;
 x=-1+2*([1:m]-1)/(m-1); x=x';

@@ -1,5 +1,4 @@
-clear; clf; 
-set(0,'defaultTextInterpreter','latex');
+clear; clf; set(0,'defaultTextInterpreter','latex');
 tic;
 N=128; h=1/N; x=[0:N]*h; y=[0:N]*h;
 for i=1:N+1

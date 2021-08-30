@@ -1,5 +1,4 @@
-clear;
-set(0,'Defaulttextinterpreter','Latex');
+clear; set(0,'Defaulttextinterpreter','Latex');
 for m=1:20, H=hilb(m); condition(m)=cond(H); end;
 subplot(211);
 L=log10(condition); plot(L,'.k','Markersize',25);

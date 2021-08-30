@@ -1,3 +1,4 @@
+set(0,'DefaultTextInterpreter','latex');
 m_vec=[100:100:3000];
 for i=1:length(m_vec)
     m=m_vec(i)

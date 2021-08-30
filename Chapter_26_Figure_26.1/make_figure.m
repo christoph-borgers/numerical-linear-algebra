@@ -1,5 +1,4 @@
-clear; 
-clf; 
+clear; clf;   set(0,'DefaultTextInterpreter','latex');
 tic;
 N=128; h=1/N;
 q=@(x,y) 4*exp(-50*((x-0.98).^2+(y-0.5).^2));

@@ -1,4 +1,4 @@
-clear;
+clear; clf;  set(0,'DefaultTextInterpreter','latex');
 m=100;
 
 a=-1; b=1;

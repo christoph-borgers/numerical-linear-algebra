@@ -1,3 +1,4 @@
+set(0,'DefaultTextInterpreter','latex');
 max_m=30;
 c=zeros(max_m-1,1);
 for m=2:max_m,

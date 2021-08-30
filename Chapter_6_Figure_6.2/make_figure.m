@@ -1,3 +1,4 @@
+set(0,'DefaultTextInterpreter','latex');
 m=2;
 for i=1:100,  x=rand(m,1); y=rand(m,1); d(i)=norm(x-y); end
 subplot(311); plot(d,'.','Markersize',15);
